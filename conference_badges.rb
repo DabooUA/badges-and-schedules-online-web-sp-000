@@ -16,7 +16,7 @@ def assign_rooms(speakers)
   rooms = 1
   room_message = []
   speakers.each do |speaker|
-    room_message << "Hello, #{speaker}! You'll be assigned to room #{number}!"
+    room_message << "Hello, #{speaker}! You'll be assigned to room #{rooms}!"
     rooms += 1
     end
   room_message
